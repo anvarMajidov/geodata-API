@@ -10,11 +10,15 @@
         <PackageReference Include="Dadata" Version="22.6.0" />
         <PackageReference Include="Mapster" Version="7.4.0-pre06" />
         <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.13" />
+        <PackageReference Include="Serilog" Version="3.0.0-dev-01958" />
+        <PackageReference Include="Serilog.AspNetCore" Version="6.1.1-dev-00295" />
+        <PackageReference Include="Serilog.Sinks.File" Version="5.0.1-dev-00947" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
     </ItemGroup>
 
     <ItemGroup>
       <Folder Include="Controllers" />
+      <Folder Include="logs" />
     </ItemGroup>
 
 </Project>
